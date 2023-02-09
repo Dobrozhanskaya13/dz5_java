@@ -1,8 +1,8 @@
 public class SQRService {
-    public int sqrOfNumber(int FIRST_NUMBER, int LAST_NUMBER) {
+    public int sqrOfNumber(int FirstNumber, int LastNumber) {
         int cnt = 0;
         for (int i = 10; i < 100; i++) {
-            if (i * i >= FIRST_NUMBER && i * i <= LAST_NUMBER) {
+            if (i * i >= FirstNumber && i * i <= LastNumber) {
                 cnt = cnt + 1;
             }
         }
